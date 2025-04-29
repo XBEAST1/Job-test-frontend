@@ -1,0 +1,289 @@
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+@font-face {
+    font-family: "lulo-clean-w01-one-bold";
+    src: url("./fonts/Lulo-Clean-W01-One-Bold.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Navbar */
+
+.nav-color {
+    background-color: #120B5D !important;
+}
+
+.nav-link {
+    color: #fff !important;
+}
+
+.josefin-sans-light {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.active {
+    color: #87b3f0 !important;
+}
+
+.social-icons {
+    margin-right: 38px;
+}
+
+.navbar-toggler {
+    border-color: white;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar {
+    border-bottom: 8px solid white;
+}
+
+@media (max-width: 991.98px) {
+    .navbar-name {
+        text-align: start !important;
+        margin-bottom: 1rem;
+    }
+
+    .social-icons {
+        margin-top: 1rem;
+    }
+}
+
+/* Footer */
+
+.footer {
+    background-color: #6192D5;
+    color: #120B5D;
+}
+
+/* Page 1 */
+
+#main {
+    padding-top: 170px;
+}
+
+.left-side {
+    background-color: #120B5D;
+    padding-top: 4rem;
+    padding-left: 5rem;
+}
+
+.main-heading {
+    font-size: 3.5rem;
+    font-weight: 800;
+}
+
+.sub-heading {
+    margin-top: 1rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+    font-family: lulo-clean-w01-one-bold;
+}
+
+.main-paragraph {
+    font-size: 22px;
+    width: 87%;
+    line-height: 2.5rem;
+}
+
+.get-started-btn {
+    background-color: #9E841F;
+}
+
+@media (max-width: 991.98px) {
+    .left-side {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        text-align: center;
+    }
+
+    .main-paragraph {
+        width: 100%;
+    }
+
+    .right-side img {
+        width: 100%;
+        max-width: 300px;
+        margin-top: 2rem;
+    }
+
+    .get-started-btn {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .responsive-logo {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+}
+
+/* Page 2 */
+
+#page2 {
+    background-color: #6192D5;
+}
+
+@media (max-width: 991.98px) {
+    .responsive-img {
+        width: 100% !important;
+        max-width: 100% !important;
+        height: auto;
+    }
+}
+
+/* Contact Section */
+
+.contact-section {
+    background-color: #E8E6E6;
+}
+
+.contact-left {
+    margin-left: 7.5rem;
+}
+
+.contact-right {
+    margin-right: 7.5rem;
+}
+
+.contact-info {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-left: 1.5rem;
+}
+
+.contact-socials {
+    margin-left: 3rem
+}
+
+.contact-heading {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+
+.send-btn {
+    background-color: #6192D5;
+    color: white;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    border: 1px solid #6192D5;
+    transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease;
+}
+
+.send-btn:hover {
+    background-color: #fff;
+    color: #6192D5;
+    border: 1px solid #6192D5;
+}
+
+@media (max-width: 991.98px) {
+    .contact-left {
+        margin-left: 0;
+    }
+
+    .contact-right {
+        margin-right: 0;
+    }
+
+    .contact-info {
+        margin-left: 0;
+    }
+
+    .contact-socials {
+        margin-left: 0;
+    }
+}
+
+/* Page 3 */
+
+#page3 {
+    background-color: #120B5D;
+}
+
+.connect-section {
+    display: flex;
+    justify-content: center
+}
+
+.connect-left {
+    margin-left: 7.5rem;
+}
+
+.connect-right {
+    margin-left: 15rem;
+    margin-right: 7.5rem;
+}
+
+.connect-left h1 {
+    margin-top: 2.5rem;
+    color: #87b3f0;
+    font-weight: 700;
+}
+
+.email {
+    text-decoration: none;
+    color: white;
+}
+
+.email-heading {
+    color: #87b3f0;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.subscribe-btn {
+    background-color: #6192D5;
+    color: white;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    border: 2px solid #6192D5;
+    transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease;
+}
+
+.subscribe-btn:hover {
+    background-color: #120B5D;
+    color: #6192D5;
+    border: 2px solid #6192D5;
+}
+
+@media (max-width: 991.98px) {
+    #page3 .connect-section {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .connect-social-icons {
+        justify-content: center;
+    }
+
+    .connect-left,
+    .connect-right {
+        width: 100% !important;
+        margin: 0 !important;
+        padding: 0 1rem;
+    }
+
+    .connect-right {
+        margin-top: 2rem;
+    }
+
+    .email-heading {
+        font-size: 1.25rem;
+    }
+
+    .subscribe-btn {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
